@@ -2,7 +2,6 @@ package com.bootcamp.project01.client.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

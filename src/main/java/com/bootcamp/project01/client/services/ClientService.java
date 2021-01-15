@@ -1,13 +1,10 @@
 package com.bootcamp.project01.client.services;
 
 import java.util.Optional;
-
 import javax.persistence.EntityNotFoundException;
-
 import com.bootcamp.project01.client.dto.ClientDTO;
 import com.bootcamp.project01.client.entities.Client;
 import com.bootcamp.project01.client.repositories.ClientRepository;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.Page;
